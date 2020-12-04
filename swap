@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int a, b, temp;
+	printf("Enter value of a:");
+	scanf("%d", &a);
+	printf("Enter value of b:");
+	scanf("%d", &b);
+	printf("BEFORE SWAPPING");
+	printf("\nvalue of a: = %d", a);
+	printf("\nvalue of b: = %d", b);
+	temp = a;
+	a = b;
+	b = temp;
+	printf("\nAFTER SWAPPING");
+	printf("\nvalue of a: = %d", a );
+	printf("\nvalue of b: = %d", b);
+	
+	
+	return 0;
+	
+}
